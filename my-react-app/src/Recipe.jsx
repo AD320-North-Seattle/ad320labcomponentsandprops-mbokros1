@@ -9,11 +9,11 @@ function Recipe(props) {
                 ))}
             </ul>
             <h4>Instructions</h4>
-            <ul>
+            <ol>
                 {props.recipe.instructions.map((instruction) => (
                     <li key={instruction}>{instruction}</li>
                 ))}
-            </ul>
+            </ol>
         </div>
     );
 }
