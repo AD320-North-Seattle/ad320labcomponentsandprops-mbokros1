@@ -26,15 +26,13 @@ h1 {
   line-height: 1.1;
 }
 
+h2 {
+  margin-top: 90px;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
+    color: black;
+    background-color: goldenrod;
   }
 }
